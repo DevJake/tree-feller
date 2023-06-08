@@ -2,13 +2,9 @@ package com.thizthizzydizzy.treefeller;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-import com.thizthizzydizzy.treefeller.compat.PrismCompat;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
-import org.bukkit.block.BlockFace;
 import org.bukkit.entity.Player;
-import org.bukkit.event.block.BlockPlaceEvent;
-import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 public class Sapling{
@@ -55,12 +51,6 @@ public class Sapling{
         placed = true;
         if(material==null)material = new ArrayList<>(materials).get(0);
         block.setType(material);
-        Block o = block.getWorld().getBlockAt(block.getLocation());
-        PrismCompat.prismBlockEvents.onBlockPlace(new BlockPlaceEvent(
-                block,
-                o.getState(),
-                o.getRelative(BlockFace.DOWN),
-                new ItemStack(block.getType(), 1), player, true, EquipmentSlot.HAND));
         return true;
     }
     public boolean tryPlace(ItemStack stack){

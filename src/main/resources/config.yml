@@ -458,9 +458,6 @@ compatibility-griefprevention: true
 # Toggle compatibility with Towny
 compatibility-towny: true
 
-# Toggle compatibility with Prism
-compatibility-prism: true
-
 # The delay before trees should regenerate
 oreregenerator-regen-delay: 1200
 

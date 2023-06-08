@@ -1,5 +1,4 @@
 package com.thizthizzydizzy.treefeller;
-import com.thizthizzydizzy.treefeller.compat.PrismCompat;
 import com.thizthizzydizzy.treefeller.compat.TestResult;
 import com.thizthizzydizzy.treefeller.compat.TreeFellerCompat;
 import com.thizthizzydizzy.treefeller.menu.MenuTreesConfiguration;

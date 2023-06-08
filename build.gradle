@@ -40,7 +40,6 @@ dependencies {
     compileOnly 'io.papermc.paper:paper-api:1.19.4-R0.1-SNAPSHOT'
     compileOnly 'net.coreprotect:coreprotect:21.3'
     compileOnly 'com.archyx:AureliumSkills:1.2.8'
-    compileOnly 'me.botsko:prism:2.1.6'
     compileOnly 'de.diddiz:logblock:1.15.1'
     compileOnly 'com.github.angeschossen:LandsAPI:6.29.12'
     compileOnly 'me.clip:placeholderapi:2.11.3'

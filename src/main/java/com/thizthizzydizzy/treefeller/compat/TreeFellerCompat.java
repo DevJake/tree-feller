@@ -34,7 +34,6 @@ public class TreeFellerCompat{
         compatibilities.add(new SaberFactionsCompat());
         compatibilities.add(new AureliumSkillsCompat());
         compatibilities.add(new BlockRegenCompat());
-        compatibilities.add(new PrismCompat());
     }
     public static void init(TreeFeller treeFeller){
         if(treeFeller!=null){
